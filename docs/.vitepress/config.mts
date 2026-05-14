@@ -12,7 +12,7 @@ export default defineConfig({
   title: '網站建立教學',
 
   // 網站描述，主要給搜尋引擎與社群預覽使用
-  description: '網站建立教學',
+  description: '30分鐘內快速學習建立網站',
 
   // 語系設定：繁體中文
   lang: 'zh-Hant-TW',

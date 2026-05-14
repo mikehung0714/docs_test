@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 開始閱讀
-      link: /A/intro
+      link: /A/A1
     - theme: alt
       text: 數學互動
       link: /graph-coloring/graph-coloring
