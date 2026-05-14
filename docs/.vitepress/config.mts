@@ -48,6 +48,13 @@ export default defineConfig({
           { text: '圖片與 GIF', link: '/tutorials/images-and-gifs' },
           { text: '程式碼區塊', link: '/tutorials/code-blocks' }
         ]
+      },
+      {
+        text: '數學互動',
+        collapsed: false,
+        items: [
+          { text: '著色問題', link: '/graph-coloring/graph-coloring.md' }
+        ]
       }
     ],
 
