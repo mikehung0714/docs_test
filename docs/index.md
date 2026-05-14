@@ -3,15 +3,15 @@ layout: home
 
 hero:
   name: 我的教學筆記
-  text: HackMD 風格的書本式網站
+  text: 書本式網站
   tagline: 用 Markdown 寫文章，用 GitHub Pages 免費架站。
   actions:
     - theme: brand
       text: 開始閱讀
-      link: /guide/intro
+      link: /A/intro
     - theme: alt
-      text: Markdown 範例
-      link: /tutorials/markdown-demo
+      text: 數學互動
+      link: /graph-coloring/graph-coloring
 
 features:
   - title: Markdown 寫作
@@ -31,7 +31,3 @@ features:
 - HackMD 類文章整理
 - 圖片、GIF、程式碼教學
 - 多文章文件網站
-
-## 如何開始？
-
-請從左側目錄的「前言」開始閱讀。

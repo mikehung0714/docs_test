@@ -1,7 +1,7 @@
 {
   "name": "vitepress-hackmd-book",
   "version": "1.0.0",
-  "description": "一個適合教學網誌、HackMD 類筆記、書本目錄模式的 VitePress 範本。",
+  "description": "一個適合教學網誌、書本目錄模式的 VitePress 範本。",
   "private": true,
   "type": "module",
   "scripts": {

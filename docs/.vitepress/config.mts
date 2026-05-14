@@ -9,23 +9,23 @@ export default defineConfig({
   base: '/docs_test/',
 
   // 網站標題，會顯示在左上角與瀏覽器分頁
-  title: '我的教學筆記',
+  title: '網站建立教學',
 
   // 網站描述，主要給搜尋引擎與社群預覽使用
-  description: 'HackMD 風格的多文章教學網站',
+  description: '網站建立教學',
 
   // 語系設定：繁體中文
   lang: 'zh-Hant-TW',
 
   themeConfig: {
     // 左上角網站標題旁的文字
-    siteTitle: '我的教學筆記',
+    siteTitle: '網站建立教學',
 
     // 右上角導覽列
     nav: [
       { text: '首頁', link: '/' },
-      { text: '開始閱讀', link: '/guide/intro' },
-      { text: '文章範例', link: '/tutorials/markdown-demo' }
+      { text: '開始閱讀', link: '/A/A1' }//,
+      //{ text: '文章範例', link: '/tutorials/markdown-demo' }
     ],
 
     // 左側書本式目錄
@@ -35,25 +35,18 @@ export default defineConfig({
         text: '開始',
         collapsed: false,
         items: [
-          { text: '前言', link: '/guide/intro' },
-          { text: '網站使用方式', link: '/guide/how-to-use' },
-          { text: '部署到 GitHub Pages', link: '/guide/deploy-github-pages' }
+          { text: '前置作業', link: '/A/A1' },
+          { text: '文章與章節', link: '/A/A2' },
+          { text: '文章操作', link: '/A/A3' },
+          { text: '章節操作', link: '/A/A4' },
+          { text: 'push 到 GitHub', link: '/A/A5' }
         ]
       },
       {
-        text: '教學文章',
+        text: '數學互動範例',
         collapsed: false,
         items: [
-          { text: 'Markdown 範例', link: '/tutorials/markdown-demo' },
-          { text: '圖片與 GIF', link: '/tutorials/images-and-gifs' },
-          { text: '程式碼區塊', link: '/tutorials/code-blocks' }
-        ]
-      },
-      {
-        text: '數學互動',
-        collapsed: false,
-        items: [
-          { text: '著色問題', link: '/graph-coloring/graph-coloring.md' }
+          { text: '著色問題', link: '/graph-coloring/graph-coloring' }
         ]
       }
     ],
@@ -71,7 +64,7 @@ export default defineConfig({
 
     // 頁尾資訊
     footer: {
-      message: '使用 VitePress + GitHub Pages 建立',
+      message: 'mike hung',
       copyright: 'Copyright © 2026'
     },
 
@@ -82,9 +75,9 @@ export default defineConfig({
     },
 
     // 編輯連結。若不需要，可以整段刪除。
-    editLink: {
-      pattern: 'https://github.com/你的帳號/你的repo/edit/main/docs/:path',
-      text: '在 GitHub 編輯此頁'
-    }
+    //editLink: {
+    //  pattern: 'https://github.com/你的帳號/你的repo/edit/main/docs/:path',
+    //  text: '在 GitHub 編輯此頁'
+    //}
   }
 })
