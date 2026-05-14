@@ -1,10 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
-import ColoringProblem from '../components/ColoringProblem.vue'
+import RandomColoringProblem from '../components/RandomColoringProblem.vue'
 
 export default {
   extends: DefaultTheme,
+
   enhanceApp({ app }) {
-    // 全域註冊元件，之後 Markdown 可直接使用 <ColoringProblem />
-    app.component('ColoringProblem', ColoringProblem)
+    // 全域註冊元件
+    // 註冊後，每一篇 Markdown 都可以直接使用 <RandomColoringProblem />
+    app.component('RandomColoringProblem', RandomColoringProblem)
   }
 }
